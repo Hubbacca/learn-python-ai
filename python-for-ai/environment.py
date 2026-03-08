@@ -1,10 +1,8 @@
 from dotenv import load_dotenv
 import os
 
-# Load the .env file
 load_dotenv()
 
-# Now use your variables
 api_key = os.environ.get('API_KEY')
 debug = os.environ.get('DEBUG')
 
